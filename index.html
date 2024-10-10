@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BST Advogados</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<script>
+  $(document).ready(function(){
+        $('img.svg').each(function(){
+            var $img = $(this);
+            var imgID = $img.attr('id');
+            var imgClass = $img.attr('class');
+            var imgURL = $img.attr('src');
+
+            $.get(imgURL, function(data) {
+                var $svg = $(data).find('svg');
+
+                if (typeof imgID !== 'undefined') {
+                    $svg = $svg.attr('id', imgID);
+                }
+
+                if (typeof imgClass !== 'undefined') {
+                    $svg = $svg.attr('class', imgClass + ' replaced-svg');
+                }
+
+                // Remover atributos `fill` e `style` inline do SVG
+                $svg.find('[fill]').removeAttr('fill');
+                $svg.find('[style]').removeAttr('style');
+
+                // Remover a tag xmlns:a, se existir
+                $svg = $svg.removeAttr('xmlns:a');
+
+                // Substituir a imagem pelo novo SVG
+                $img.replaceWith($svg);
+            }, 'xml');
+        });
+    });
+</script>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="nav-bar__container">
+                <div class="logo-nav"><img src="./svg-icons/BST-LOGO.svg" alt="BST advogados logo."></div>
+                
+                <div class="items-nav">
+                        <ul>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                            <li>item</li>
+                        </ul>
+                </div>
+            </div>
+                
+        </nav>
+        <div class="header__container">
+            <h1>Escritório de advocacia full service referência em proteger os negócios e garantir o legado das famílias</h1>
+            <a href="">
+                Falar com especialista 
+                <img id="chevron" class="svg chevron" src="./svg-icons/chevron-right.svg">
+            </a>
+        </div>
+    </header>
+</body>
+</html>
