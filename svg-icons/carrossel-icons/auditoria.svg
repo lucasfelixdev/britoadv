@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 286.17 315.82">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #224564;
+        stroke-width: 7px;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-5 {
+        fill: url(#Gradiente_sem_nome_17);
+      }
+
+      .cls-6 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-7 {
+        font-family: ArgentumNovus-SemiBoldItalic, 'Argentum Novus';
+        font-size: 30.24px;
+        font-style: italic;
+        font-weight: 600;
+      }
+
+      .cls-7, .cls-8 {
+        fill: #ebc893;
+      }
+
+      .cls-9 {
+        fill: #224564;
+      }
+
+      .cls-10 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-3 {
+        stroke: url(#Gradiente_sem_nome_23);
+        stroke-width: 16px;
+      }
+
+      .cls-12 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-13 {
+        letter-spacing: -.04em;
+      }
+    </style>
+    <radialGradient id="Gradiente_sem_nome_23" data-name="Gradiente sem nome 23" cx="182.28" cy="301.41" fx="182.28" fy="301.41" r="118.82" gradientTransform="translate(-30.3 -140.52) scale(.95 1.21)" gradientUnits="userSpaceOnUse">
+      <stop offset=".3" stop-color="#0f5f8d"/>
+      <stop offset="1" stop-color="#05131b"/>
+    </radialGradient>
+    <radialGradient id="Gradiente_sem_nome_17" data-name="Gradiente sem nome 17" cx="239.81" cy="13.72" fx="239.81" fy="13.72" r="176.46" gradientTransform="translate(-73.19 77.59) scale(.9 .85)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f5f8d"/>
+      <stop offset="1" stop-color="#05131b"/>
+    </radialGradient>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada_1">
+    <g>
+      <text class="cls-7" transform="translate(72.48 234.19)"><tspan class="cls-10" x="0" y="0">A</tspan><tspan class="cls-13" x="21.38" y="0">udi</tspan><tspan class="cls-6" x="68.3" y="0">t</tspan><tspan class="cls-13" x="79.58" y="0">o</tspan><tspan class="cls-11" x="98.03" y="0">r</tspan><tspan class="cls-13" x="109.58" y="0">ia </tspan><tspan class="cls-4" x=".7" y="31.91">T</tspan><tspan class="cls-11" x="17.57" y="31.91">r</tspan><tspan class="cls-12" x="29.12" y="31.91">ibu</tspan><tspan class="cls-6" x="75.98" y="31.91">t</tspan><tspan class="cls-13" x="87.26" y="31.91">á</tspan><tspan class="cls-11" x="104.59" y="31.91">r</tspan><tspan class="cls-13" x="116.14" y="31.91">ia</tspan></text>
+      <rect class="cls-3" x="8" y="143.34" width="270.17" height="164.48"/>
+      <path class="cls-5" d="M55.43,0h175.98c22.41,0,40.61,18.2,40.61,40.61v137.96H14.82V40.61C14.82,18.2,33.01,0,55.43,0Z"/>
+      <path class="cls-8" d="M100.26,144.79c1.99,3.45,5.66,5.57,9.64,5.58h67.01c6.17,0,11.16-5,11.16-11.16v-72.56l-27.91-27.91h-50.23c-6.17,0-11.16,5-11.16,11.16v16.74"/>
+      <path class="cls-1" d="M154.53,38.76v22.33c0,6.17,5,11.16,11.16,11.16h22.33"/>
+      <path class="cls-2" d="M155.51,104.83c-7.45,0-13.51,6.06-13.51,13.51s6.06,13.51,13.51,13.51,13.51-6.06,13.51-13.51-6.06-13.51-13.51-13.51Z"/>
+      <path class="cls-9" d="M171.75,130.02l-.14.14c2.44-3.31,3.88-7.39,3.88-11.81,0-11.01-8.96-19.98-19.98-19.98s-19.98,8.96-19.98,19.98,8.96,19.98,19.98,19.98c4.42,0,8.5-1.44,11.81-3.88l-.14.14,8.37,8.37,4.57-4.57-8.37-8.37ZM155.51,131.86c-7.45,0-13.51-6.06-13.51-13.51s6.06-13.51,13.51-13.51,13.51,6.06,13.51,13.51-6.06,13.51-13.51,13.51Z"/>
+    </g>
+  </g>
+</svg>

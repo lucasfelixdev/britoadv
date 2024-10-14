@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 286.17 315.82">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-3 {
+        fill: url(#Gradiente_sem_nome_17);
+      }
+
+      .cls-4 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-6 {
+        font-family: ArgentumNovus-SemiBoldItalic, 'Argentum Novus';
+        font-size: 30.24px;
+        font-style: italic;
+        font-weight: 600;
+      }
+
+      .cls-6, .cls-7 {
+        fill: #ebc893;
+      }
+
+      .cls-8 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-11 {
+        fill: none;
+        stroke: url(#Gradiente_sem_nome_23);
+        stroke-miterlimit: 10;
+        stroke-width: 16px;
+      }
+
+      .cls-12 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-13 {
+        fill: #fbc780;
+      }
+
+      .cls-14 {
+        letter-spacing: -.04em;
+      }
+    </style>
+    <radialGradient id="Gradiente_sem_nome_23" data-name="Gradiente sem nome 23" cx="214.93" cy="301.41" fx="214.93" fy="301.41" r="118.82" gradientTransform="translate(-61.35 -140.52) scale(.95 1.21)" gradientUnits="userSpaceOnUse">
+      <stop offset=".3" stop-color="#0f5f8d"/>
+      <stop offset="1" stop-color="#05131b"/>
+    </radialGradient>
+    <radialGradient id="Gradiente_sem_nome_17" data-name="Gradiente sem nome 17" cx="307.44" cy="13.72" fx="307.44" fy="13.72" r="176.46" gradientTransform="translate(-134.72 77.59) scale(.9 .85)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f5f8d"/>
+      <stop offset="1" stop-color="#05131b"/>
+    </radialGradient>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada_1">
+    <g>
+      <text class="cls-6" transform="translate(51.04 234.19)"><tspan class="cls-5" x="0" y="0">C</tspan><tspan class="cls-14" x="20.35" y="0">on</tspan><tspan class="cls-4" x="58.45" y="0">t</tspan><tspan class="cls-12" x="69.73" y="0">e</tspan><tspan class="cls-8" x="87.38" y="0">n</tspan><tspan class="cls-14" x="107.22" y="0">cioso</tspan><tspan class="cls-14" x="9.42" y="31.91">est</tspan><tspan class="cls-9" x="53.47" y="31.91">r</tspan><tspan class="cls-2" x="64.87" y="31.91">a</tspan><tspan class="cls-1" x="82.2" y="31.91">t</tspan><tspan class="cls-14" x="93.48" y="31.91">égi</tspan><tspan class="cls-10" x="138.77" y="31.91">c</tspan><tspan class="cls-14" x="155.07" y="31.91">o</tspan></text>
+      <rect class="cls-11" x="8" y="143.34" width="270.17" height="164.48"/>
+      <path class="cls-3" d="M54.97,0h175.98c22.41,0,40.61,18.2,40.61,40.61v137.96H14.36V40.61C14.36,18.2,32.56,0,54.97,0Z"/>
+      <path class="cls-7" d="M166.94,115.22l17.98-47.95,17.98,47.95c-5.21,3.9-11.51,5.99-17.98,5.99s-12.77-2.1-17.98-5.99Z"/>
+      <path class="cls-7" d="M83.03,115.22l17.98-47.95,17.98,47.95c-5.21,3.9-11.51,5.99-17.98,5.99s-12.77-2.1-17.98-5.99Z"/>
+      <rect class="cls-7" x="113" y="141.1" width="59.94" height="8.18"/>
+      <rect class="cls-7" x="138.88" y="37.3" width="8.18" height="107.89"/>
+      <path class="cls-7" d="M89.02,61.27h11.99c11.99,0,29.97-5.99,41.96-11.99,11.99,5.99,29.97,11.99,41.96,11.99h11.99"/>
+      <path class="cls-13" d="M196.91,61.44h-11.99c-12.35,0-30.39-6.2-41.96-11.97-11.57,5.77-29.6,11.97-41.96,11.97h-11.99v-.34h11.99c12.33,0,30.35-6.2,41.88-11.97l.08-.04.08.04c11.53,5.76,29.55,11.97,41.88,11.97h11.99v.34Z"/>
+    </g>
+  </g>
+</svg>

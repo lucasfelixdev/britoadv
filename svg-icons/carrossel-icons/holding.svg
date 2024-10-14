@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 286.17 315.82">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #224564;
+        stroke-width: 7px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: url(#Gradiente_sem_nome_17);
+      }
+
+      .cls-4 {
+        font-family: ArgentumNovus-SemiBoldItalic, 'Argentum Novus';
+        font-size: 30.24px;
+        font-style: italic;
+        font-weight: 600;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #ebc893;
+      }
+
+      .cls-2 {
+        stroke: url(#Gradiente_sem_nome_23);
+        stroke-width: 16px;
+      }
+
+      .cls-6 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.04em;
+      }
+    </style>
+    <radialGradient id="Gradiente_sem_nome_23" data-name="Gradiente sem nome 23" cx="165.99" cy="301.41" fx="165.99" fy="301.41" r="118.82" gradientTransform="translate(-14.8 -140.52) scale(.95 1.21)" gradientUnits="userSpaceOnUse">
+      <stop offset=".3" stop-color="#0f5f8d"/>
+      <stop offset="1" stop-color="#05131b"/>
+    </radialGradient>
+    <radialGradient id="Gradiente_sem_nome_17" data-name="Gradiente sem nome 17" cx="205.32" cy="13.72" fx="205.32" fy="13.72" r="176.46" gradientTransform="translate(-42.49 77.59) scale(.9 .85)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f5f8d"/>
+      <stop offset="1" stop-color="#05131b"/>
+    </radialGradient>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada_1">
+    <g>
+      <text class="cls-4" transform="translate(83.47 248.06)"><tspan class="cls-7" x="0" y="0">Holdi</tspan><tspan class="cls-6" x="78.31" y="0">n</tspan><tspan class="cls-7" x="98.15" y="0">g</tspan></text>
+      <rect class="cls-2" x="8" y="143.34" width="270.17" height="164.48"/>
+      <path class="cls-3" d="M54.97,0h175.98c22.41,0,40.61,18.2,40.61,40.61v137.96H14.36V40.61C14.36,18.2,32.56,0,54.97,0Z"/>
+      <path class="cls-5" d="M90.39,84.49c0-3.44,1.51-6.71,4.14-8.93l40.9-35.05c4.35-3.68,10.73-3.68,15.08,0l40.9,35.05c2.63,2.22,4.14,5.49,4.14,8.93v52.58c0,6.45-5.23,11.68-11.68,11.68h-81.79c-6.45,0-11.68-5.23-11.68-11.68v-52.58Z"/>
+      <path class="cls-1" d="M160.49,149.43v-46.74c0-3.23-2.62-5.84-5.84-5.84h-23.37c-3.23,0-5.84,2.62-5.84,5.84v46.74"/>
+    </g>
+  </g>
+</svg>
