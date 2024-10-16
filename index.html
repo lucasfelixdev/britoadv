@@ -5,46 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BST Advogados</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="style/style.css">
 </head>
 
-<script>
-  $(document).ready(function(){
-        $('img.svg').each(function(){
-            var $img = $(this);
-            var imgID = $img.attr('id');
-            var imgClass = $img.attr('class');
-            var imgURL = $img.attr('src');
-
-            $.get(imgURL, function(data) {
-                var $svg = $(data).find('svg');
-
-                if (typeof imgID !== 'undefined') {
-                    $svg = $svg.attr('id', imgID);
-                }
-
-                if (typeof imgClass !== 'undefined') {
-                    $svg = $svg.attr('class', imgClass + ' replaced-svg');
-                }
-
-                // Remover atributos `fill` e `style` inline do SVG
-                $svg.find('[fill]').removeAttr('fill');
-                $svg.find('[style]').removeAttr('style');
-
-                // Remover a tag xmlns:a, se existir
-                $svg = $svg.removeAttr('xmlns:a');
-
-                // Substituir a imagem pelo novo SVG
-                $img.replaceWith($svg);
-            }, 'xml');
-        });
-    });
-</script>
 
 <body>
     <header>
-        <div class="nav-bar">
-          
             <div class="nav-bar__container menu-section">
                 <div class="logo-nav"><img src="./svg-icons/BST-LOGO.svg" alt="BST advogados logo."></div>
 
@@ -54,7 +25,7 @@
                     <div class="three"></div>
                 </div>
 
-                <nav class="items-nav">
+                <nav class="items-nav ">
                         <ul class="navUlDestk">
                             <li><a href="#">SOBRE</a></li>
                             <li><a href="#">SERVIÇOS</a></li>
@@ -64,8 +35,6 @@
                         </ul>
                   </nav>
             </div>
-                
-          </div>
 
         <div class="header__container">
             <h1>Escritório de advocacia full service referência em proteger os negócios e garantir o legado das famílias</h1>
@@ -137,7 +106,7 @@
 
       <section class="s-servicesDetails">
           <section class="s-servicesDetails__container grid">
-              <article>
+              <article onclick="toggleBackgroundColor(this)">
                 <h2>Compliance Trabalhista</h2>
                 <p>
                   Avaliamos a postura das empresas quanto às obrigações trabalhistas,
@@ -147,7 +116,7 @@
                 </p>
               </article>
 
-              <article>
+              <article onclick="toggleBackgroundColor(this)" >
                 <h2>Societário e Marcas</h2>
                 <p>
                   Nossa atuação na área societária tem por objetivo proteger a
@@ -158,7 +127,7 @@
                 </p>
               </article>
 
-              <article>
+              <article onclick="toggleBackgroundColor(this)">
                 <h2>Holding</h2>
                 <p>
                   De forma eficiente, legal, segura e com economia tributária,
@@ -169,7 +138,7 @@
 
 
 
-              <article>
+              <article onclick="toggleBackgroundColor(this)">
                 <h2>Auditoria Tributária</h2>
                 <p>
                   Realizamos a revisão de todos os tributos pagos dos últimos 5 anos
@@ -180,7 +149,7 @@
                 </p>
               </article>
 
-              <article>
+              <article onclick="toggleBackgroundColor(this)">
                 <h2>Contecioso Estrégico</h2>
                 <p>
                   Atuação estratégica de negócios e empresários junto ao Poder
@@ -189,7 +158,7 @@
                 </p>
               </article>
 
-              <article>
+              <article onclick="toggleBackgroundColor(this)">
                 <h2>Planejamento Estratégico</h2>
                 <p>
                   Ao longo de sua trajetória, os empresários contribuem ao INSS valores
@@ -203,7 +172,93 @@
               </article>
           </section>
       </section>
+      <section class="s-slider">
+        <h1>Nossa<br> equipe</h1>
+        <!-- Usando swiper-container para a versão com componentes web -->
+        <swiper-container class="mySwiper" init="false" pagination="true" loop="true" autoplay="true" spaceBetween="30">
+          <swiper-slide><img src="./img/slider/01.png" alt=""> <div class="title-adv"><p>Carol Brito</p></div></swiper-slide>
+          <swiper-slide><img src="./img/slider/02.png" alt=""> <div class="title-adv"><p>Tiago Simões</p></div></swiper-slide>
+          <swiper-slide><img src="./img/slider/03.png" alt=""> <div class="title-adv"><p>Leonardo Tibúrcio</p></div></swiper-slide>
+          <swiper-slide><img src="./img/slider/04.png" alt=""> <div class="title-adv"><p>Rhísya Sobral</p></div></swiper-slide>
+          <swiper-slide><img src="./img/slider/02.png" alt=""> <div class="title-adv"><p>Tiago Simões</p></div></swiper-slide>
+        </swiper-container>
+    </section>
+  
     </main>
+    <footer  class='form01 form02'>
+      <div class="footer-container">
+        <div>
+          <h3>Nossos endereços</h3>
+          <p>Recife/PE, CEP 51110160 Av. República do Líbano, 241,
+            Torre 3, Pina / Empresarial Riomar</p>
+            <br><br>
+            <p>Vitória de Santo Antão/PE, CEP 55602635
+              Rua Conselheiro Severino Francisco Alves, 138, Livramento
+              Empresarial Margarida Verçosa (correspondência)</p>
+        </div>
+        <div>
+          <h3>Contatos</h3>
+          <div class="footer-socialIcons">
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img src="./svg-icons/social-icons/instagram.svg" alt="icone do instagram">
+            </a>
+
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img src="./svg-icons/social-icons/whatsapp.svg" alt="icone do whatsapp">
+            </a>
+
+            <a href="http://" target="_blank" rel="noopener noreferrer">
+              <img src="./svg-icons/social-icons/linkedin.svg" alt="icone do linkedi">
+            </a>
+          </div>
+        
+        </div>
+      </div>
+      <div class="last-footer">
+        <a href="https://lucasfelixdev.github.io/myportfoil/" target="_blank" rel="noopener noreferrer"><h4></h4>Desenvolvido por lukasfelixdev</h4></a>
+        <img src="./svg-icons/bst-iso.svg" alt="">
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
     <script src="./script/responsividade.js"></script>
+    <script>
+      const swiperEl = document.querySelector('swiper-container')
+      Object.assign(swiperEl, {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 
+            20,
+          },
+          1920: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+        },
+      });
+      swiperEl.initialize();
+
+       // Atualiza o Swiper ao redimensionar a janela
+       window.addEventListener('resize', () => {
+        swiperEl.swiper.update();
+      });
+   
+    </script>
+
 </body>
 </html>
