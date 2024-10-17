@@ -310,7 +310,17 @@ main{
     }
     .s-testemunhas a{font-size: 15px;}
    
+    .footer-container {
+      width: 80% !important;
+      margin: 0 auto !important;
+      display: grid !important;
+      grid-auto-columns: auto !important;
+      grid-template-columns: none !important;
+      grid-template-rows: none !important;
+      gap: 30px 90px !important;
+      grid-template-areas: none !important;
 
+}
   
 }
 /* ---RESPONSIVIDADE NAVBAR ----------------------------------------------------------*/
