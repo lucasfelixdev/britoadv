@@ -373,7 +373,7 @@ main{
       object-fit: cover;
     }
 
-    .s-diferenciais{width: 80%;margin: 0 auto; max-width: var(--maxWidth); display: flex; align-items: center; justify-content: space-evenly; padding-bottom: 79px;} 
+    .s-diferenciais{width: 80%;margin: 0 auto; max-width: var(--maxWidth); display: flex; align-items: center; justify-content: space-evenly; padding-bottom: 79px; scroll-margin-block-start: 90px;} 
     
     .img-container__diferencial{
       
