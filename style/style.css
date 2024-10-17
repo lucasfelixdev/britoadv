@@ -137,7 +137,7 @@ header{
 .items-nav ul a:hover{transition: 0.3s ease; color:var(--azul-pr1-escuro); font-size:18px; background-color: var(--colorFontPr); padding: 5px 10px; border-radius: 8px;}
 
 main{
-    margin-top: 100px;
+    margin: 150px 0;
 }
 
 .s-solution{    
@@ -307,9 +307,9 @@ main{
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-
-
     }
+    .s-testemunhas a{font-size: 15px;}
+   
 
   
 }
@@ -348,8 +348,10 @@ main{
   display: none !important;
 }
 
-    @media (max-width: 825px) {
+    @media (max-width: 800px) {
       .s-slider{flex-direction: column;}
+      .s-diferenciais{flex-direction: column;}
+      .diferenciais_text{width: 90% !important; text-align: center; font-size: 28px !important; margin-top: -140px; }
     }
 
     .title-adv{border-top: 8px solid #03131c ; font-weight: 400; width: 100%; height: 60px; background-color: var(--colorFontPr); display: flex; justify-content: center; align-items: center; border-radius: 0 0 0 20px;} 
@@ -359,6 +361,29 @@ main{
       width: 100%;
       height: 100%;
       object-fit: cover;
+    }
+
+    .s-diferenciais{width: 80%;margin: 0 auto; max-width: var(--maxWidth); display: flex; align-items: center; justify-content: space-evenly; padding-bottom: 79px;} 
+    
+    .img-container__diferencial{
+      
+      background-image: url(../img/diferenciais.png);
+      height: 600px;
+      width: 600px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    .s-diferenciais img{
+      height: 100%;
+    }
+
+    .diferenciais_text{
+      line-height: 40px;
+      font-size: 30px;
+      width: 80%;
+      max-width: 500px;
+      color: var(--colorFontPr);
     }
 
   .s-testemunhas{    
@@ -378,7 +403,7 @@ main{
   }
   .google-direct{
     margin:0 auto;
-    width: 80%;
+    width: 95%;
     display: flex;
     justify-content: center;
   }
