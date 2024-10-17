@@ -315,11 +315,6 @@ main{
 }
 /* ---RESPONSIVIDADE NAVBAR ----------------------------------------------------------*/
 .s-slider{
-  /* scroll-margin-top: 500px; */
-  /* scroll-padding-top: 600px; */
-  /* scroll-padding: 500px; */
-  /* scroll-margin-block-start: 500px; */
-  /* scroll-padding-block-end: 500px; */
   padding-bottom: 100px;
   padding-top: calc(100px + 33px);
   width: 85%;
@@ -330,7 +325,7 @@ main{
   align-items: center;
   margin: 0 auto;
   justify-content: space-evenly;}
-.s-slider h1{color: var(--colorFontPr); font-size: clamp(1em, 1.1em + 3.1vw, 2.5em); line-height: 52px;}
+.s-slider h1{color: var(--colorFontPr); font-size: clamp(1em, 1.1em + 3.1vw, 2.5em); line-height: 35px;}
     swiper{
       width: inherit;
     }
@@ -373,6 +368,10 @@ main{
   }
 
   .s-testemunhas h4{
+    line-height: 40px;
+    margin:  15px auto;
+    width: 70%;
+    white-space: initial;
     color: var(--colorFontPr);
     font-size: 35px;
     text-align: center;
