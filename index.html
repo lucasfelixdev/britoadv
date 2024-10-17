@@ -28,10 +28,10 @@
                 <nav class="items-nav ">
                         <ul class="navUlDestk">
                             <li><a href="#">SOBRE</a></li>
-                            <li><a href="#">SERVIÇOS</a></li>
+                            <li><a href="#service">SERVIÇOS</a></li>
                             <li><a href="#">DIFERENCIAIS</a></li>
-                            <li><a href="#">EQUIPE</a></li>
-                            <li><a href="#">CONTATO</a></li>
+                            <li><a href="#team">EQUIPE</a></li>
+                            <li><a href="#footer">CONTATO</a></li>
                         </ul>
                   </nav>
             </div>
@@ -104,7 +104,7 @@
         </div>
       </section>
 
-      <section class="s-servicesDetails">
+      <section id="service" class="s-servicesDetails">
           <section class="s-servicesDetails__container grid">
               <article onclick="toggleBackgroundColor(this)">
                 <h2>Compliance Trabalhista</h2>
@@ -172,10 +172,10 @@
               </article>
           </section>
       </section>
-      <section class="s-slider">
+      <section id="team" class="s-slider">
         <h1>Nossa<br> equipe</h1>
         <!-- Usando swiper-container para a versão com componentes web -->
-        <swiper-container class="mySwiper" init="false" pagination="true" loop="true" autoplay="true" spaceBetween="30">
+        <swiper-container class="mySwiper" init="false" pagination="false" loop="true" autoplay="true" spaceBetween="30">
           <swiper-slide><img src="./img/slider/01.png" alt=""> <div class="title-adv"><p>Carol Brito</p></div></swiper-slide>
           <swiper-slide><img src="./img/slider/02.png" alt=""> <div class="title-adv"><p>Tiago Simões</p></div></swiper-slide>
           <swiper-slide><img src="./img/slider/03.png" alt=""> <div class="title-adv"><p>Leonardo Tibúrcio</p></div></swiper-slide>
@@ -183,9 +183,42 @@
           <swiper-slide><img src="./img/slider/02.png" alt=""> <div class="title-adv"><p>Tiago Simões</p></div></swiper-slide>
         </swiper-container>
     </section>
-  
+
+    <section class="s-testemunhas">
+      <div class="logos2">
+              <h4>Opiniões reais, resultados incríveis!</h4>
+
+              <div class="google-direct">
+                <a href="https://www.google.com/search?client=opera-gx&q=brito+simoes+e+tiburcio&sourceid=opera&ie=UTF-8&oe=UTF-8#lrd=0x7aa5539bd5b59b7:0x3de9bede5518c4ed,1,,,," target="_blank" rel="noopener noreferrer">confira todas as avaliações reais aqui</a>
+              </div>
+           
+              <div class="logos-slide2">
+                  <img src="./img/feedback/01.png" />
+                  <img src="./img/feedback/02.png" />
+                  <img src="./img/feedback/03.png" />
+                  <img src="./img/feedback/04.png" />
+                  <img src="./img/feedback/05.png" />
+                  <img src="./img/feedback/06.png" />
+                  <img src="./img/feedback/07.png" />
+                  <img src="./img/feedback/08.png" />
+                  
+              </div>
+
+              <div class="logos-slide2">
+                <img src="./img/feedback/09.png" />
+                <img src="./img/feedback/10.png" />
+                <img src="./img/feedback/11.png" />
+                <img src="./img/feedback/12.png" />
+                <img src="./img/feedback/13.png" />
+                <img src="./img/feedback/14.png" />
+                <img src="./img/feedback/15.png" />
+                <img src="./img/feedback/16.png" />
+              </div>
+         </div>
+    </section>
+
     </main>
-    <footer  class='form01 form02'>
+    <footer id="footer" class='form01 form02'>
       <div class="footer-container">
         <div>
           <h3>Nossos endereços</h3>
@@ -229,7 +262,9 @@
         slidesPerView: 1,
         spaceBetween: 30,
         pagination: {
+          
           clickable: true,
+          dynamicBullets: true // Opcional, para balas dinâmicas
         },
         breakpoints: {
           640: {
