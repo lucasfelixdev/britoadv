@@ -26,7 +26,7 @@ body{
     background: var(--azul-pr1-escuro);
 }
 
-header{
+header {
     margin: 0 auto;
     max-width: var(--maxWidth);
     height: 650px;
