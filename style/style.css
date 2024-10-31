@@ -19,12 +19,18 @@
 }
 
 body{
+  position: relative;
     -webkit-font-smoothing: antialiased;
     font-family: "Taviraj";
     width: 100%;
     height:100%;
     background: var(--azul-pr1-escuro);
 }
+.flutuant-bnt{border: 1px var(--colorFontPr) solid; border-radius: 8px; box-sizing: border-box; padding: 20px 10px 30px 10px; background-color:var(--azul-pr1-escuro); z-index: 99; position: fixed; bottom: -7px; right: 10px; color: var(--colorFontPr); display: flex; flex-direction: column; gap: 10px;}
+.flutuant-bnt p{line-height: 13px; align-items: center;}
+.flutuant-bnt img{height: 60px;}
+
+
 
 header {
     margin: 0 auto;
@@ -362,6 +368,18 @@ main{
 }
 
     @media (max-width: 800px) {
+      .last-footer {width: 85% !important;}
+      .last-footer a {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 8px;}
+        .last-footer img {
+          height: 19px;
+      }
+      .flutuant-bnt{padding:10px 10px 15px 10px;}
+      .flutuant-bnt img{height: 30px}
+      .flutuant-bnt p {font-size: 10px; line-height: 8px;}
+
       .s-slider{flex-direction: column;}
       .s-diferenciais{flex-direction: column;}
       .diferenciais_text{width: 90% !important; text-align: center; font-size: 23px !important; margin-top: -140px; }
