@@ -26,9 +26,11 @@ body{
     height:100%;
     background: var(--azul-pr1-escuro);
 }
-.flutuant-bnt{border: 1px var(--colorFontPr) solid; border-radius: 8px; box-sizing: border-box; padding: 20px 10px 30px 10px; background-color:var(--azul-pr1-escuro); z-index: 99; position: fixed; bottom: -7px; right: 10px; color: var(--colorFontPr); display: flex; flex-direction: column; gap: 10px;}
+.flutuant-bnt{text-decoration: none; border: 1px var(--colorFontPr) solid; border-radius: 8px; box-sizing: border-box; padding: 13px 12px 30px 12px; background-color:var(--azul-pr1-escuro); z-index: 99; position: fixed; bottom: -9px; right: 10px; color: var(--colorFontPr); display: flex; flex-direction: column; gap: 13px; transition: 0.5s ease-in-out;}
 .flutuant-bnt p{line-height: 13px; align-items: center;}
 .flutuant-bnt img{height: 60px;}
+.notification{color: var(--azul-pr1-escuro); font-weight: 600; position: absolute; top: -12px; right: 9px; background-color: var(--colorFontPr); box-sizing: border-box; padding: 6px; border-radius: 100px; border: 2px var(--azul-pr1-escuro) solid;}
+.flutuant-bnt:hover{padding: 23px 12px 33px 13px; transition: 0.5s ease-in-out; border-radius: 15px;}
 
 
 
