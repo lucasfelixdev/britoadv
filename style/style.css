@@ -38,7 +38,7 @@ header {
     margin: 0 auto;
     max-width: var(--maxWidth);
     height: 100vh;
-    background-image: url(../img/header.png);
+    background-image: url("../img/equipeHeader.png");
     background-position:  center;
     background-position-x: 58%;
     background-size: cover;
