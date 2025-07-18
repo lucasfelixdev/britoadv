@@ -468,13 +468,15 @@ main{
 }
 
 /* Imagens normais */
-.mySwiper .img-wrapper img {
+
+/* Só aplica no desktop */
+@media (hover: hover) and (pointer: fine) {
+  .mySwiper .img-wrapper img {
   filter: grayscale(0) blur(0);
   transition: filter 0.5s ease;
 }
 
-/* Só aplica no desktop */
-@media (hover: hover) and (pointer: fine) {
+
   /* Quando o mouse entra no swiper, todas ficam desfocadas */
   .mySwiper:hover .img-wrapper img {
     filter: grayscale(1) blur(3px);
