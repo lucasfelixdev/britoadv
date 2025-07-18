@@ -473,10 +473,12 @@ main{
   transition: filter 0.5s ease;
 }
 
-/* Todas ficam P&B e desfocadas */
-.mySwiper:hover .img-wrapper img {
-  filter: grayscale(1) blur(4px);
-}
+/* Só aplica no desktop */
+@media (hover: hover) and (pointer: fine) {
+  /* Quando o mouse entra no swiper, todas ficam desfocadas */
+  .mySwiper:hover .img-wrapper img {
+    filter: grayscale(1) blur(3px);
+  }}
 
 /* Apenas a imagem em hover continua normal */
 .mySwiper:hover swiper-slide:hover .img-wrapper img,
@@ -664,28 +666,3 @@ main{
 .last-footer img{height: 20px;}
 .last-footer a {text-decoration: none; color:#ede4d0;}
 
-@media (max-width:400px) {
-  /* Evita que o blur ultrapasse os limites da imagem */
-.img-wrapper {
-  overflow: hidden;
-  width: 100%;
-
-}
-
-/* Imagens normais */
-.mySwiper .img-wrapper img {
-  filter: grayscale(0) blur(0);
-  transition: filter 0.5s ease;
-}
-
-/* Todas ficam P&B e desfocadas */
-.mySwiper:focus-visible .img-wrapper img {
-  filter: grayscale(1) blur(4px);
-}
-
-/* Apenas a imagem em hover continua normal */
-.mySwiper:focus-visible swiper-slide:focus-visible .img-wrapper img,
-.mySwiper:focus-visible .swiper-slide:focus-visible .img-wrapper img {
-  filter: grayscale(0) blur(0);
-}
-}
