@@ -418,6 +418,7 @@ main{
     swiper-container {
       width: inherit;
       height: 100%;
+      max-width: 1029.51px;
     }
 
     swiper-slide {
