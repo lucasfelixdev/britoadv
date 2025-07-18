@@ -177,7 +177,7 @@
       <section id="team" class="s-slider">
         <h1>A nossa<br> equipe</h1>
         <!-- Usando swiper-container para a versão com componentes web -->
-        <swiper-container class="mySwiper" init="false" pagination="false" loop="true" autoplay="true" spaceBetween="30">
+        <swiper-container class="mySwiper" init="false" pagination="false" loop="true" autoplay="false" spaceBetween="30">
           <swiper-slide>
              <div class="img-wrapper">
                <img src="./img/slider/01.png" alt="imagem advogado"> 
@@ -303,37 +303,37 @@
     <script>
 
          var swiper = new Swiper(".mySwiper-infinite", {
-  slidesPerView: 'auto',
-  spaceBetween: 40,
-  loop: true,
-  loopedSlides: 10, // garante que o loop funcione bem
-  freeMode: true, // autoplay contínuo e sem pausas
-  allowTouchMove: false, // impede o usuário de parar com o dedo/mouse (opcional)
-  autoplay: {
-    delay: 0,
-    disableOnInteraction: false,
-    pauseOnMouseEnter: false
-  },
-  speed: 10000, // quanto maior, mais suave e lento (você pode ajustar)
-  direction: 'horizontal',
-  lazy: false,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: false,
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
-  on: {
-    init: function () {
-      document.querySelectorAll('.mySwiper-infinite .swiper-slide').forEach((slide, index) => {
-        slide.setAttribute('data-swiper-slide-index', index);
-        slide.style.animationDelay = `${index * 0.5}s`;
-      });
-    }
-  }
-});
+            slidesPerView: 'auto',
+            spaceBetween: 40,
+            loop: true,
+            loopedSlides: 10, // garante que o loop funcione bem
+            freeMode: true, // autoplay contínuo e sem pausas
+            allowTouchMove: false, // impede o usuário de parar com o dedo/mouse (opcional)
+            autoplay: {
+              delay: 0,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: false
+            },
+            speed: 10000, // quanto maior, mais suave e lento (você pode ajustar)
+            direction: 'horizontal',
+            lazy: false,
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: false,
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+            on: {
+              init: function () {
+                document.querySelectorAll('.mySwiper-infinite .swiper-slide').forEach((slide, index) => {
+                  slide.setAttribute('data-swiper-slide-index', index);
+                  slide.style.animationDelay = `${index * 0.5}s`;
+                });
+              }
+            }
+          });
 
 
 

@@ -15,7 +15,7 @@
     --colorFontPr: #ebc894;
     --font-white: #f0eae4;
 
-    --maxWidth: 1920px;
+    --maxWidth: 1420px;
 }
 
 body{
@@ -36,7 +36,7 @@ body{
 
 header {
     margin: 0 auto;
-    max-width: var(--maxWidth);
+   
     height: 100vh;
     background-image: url("../img/equipeHeader.png");
     background-position:  center;
@@ -51,19 +51,18 @@ header {
 }
 
 .header__container{
-  padding-top: 40px;
-    padding-left: 5%;
+    padding-top: 40px;
+    padding-left: 2%;
     box-sizing: border-box;
     color: var(--colorFontPr);
     row-gap: 30px;
-    margin-left: 120px;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     display: flex;
     margin: 0 auto;
     width: 90%;
-    max-width: 1610px;
+    max-width: var(--maxWidth);
     height: 100vh;
 }
 
@@ -121,14 +120,14 @@ header {
 
 .nav-bar__container{
     box-sizing: border-box;
-    padding: 0 3%;
+    padding: 0 3% 0 2%;
     top: 40px;
     z-index: 100;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     position: fixed;
-    margin: 20px auto 0 auto;
-    width: 82%;
+    margin: 10px auto 0 auto;
+    width: 90%;
     max-width: var(--maxWidth);
     height: 60px;
     backdrop-filter: blur(9px) saturate(131%);
@@ -464,7 +463,8 @@ main{
 /* Evita que o blur ultrapasse os limites da imagem */
 .img-wrapper {
   overflow: hidden;
- 
+  width: 100%;
+
 }
 
 /* Imagens normais */
@@ -483,6 +483,8 @@ main{
 .mySwiper:hover .swiper-slide:hover .img-wrapper img {
   filter: grayscale(0) blur(0);
 }
+
+
 
 
     .s-diferenciais{width: 80%;margin: 0 auto; max-width: var(--maxWidth); display: flex; align-items: center; justify-content: space-evenly; padding-bottom: 79px; scroll-margin-block-start: 90px;} 
@@ -661,3 +663,29 @@ main{
 .last-footer h4{ font-size: 11px; font-weight: 300; color: white; letter-spacing: 1px;text-transform: uppercase;}
 .last-footer img{height: 20px;}
 .last-footer a {text-decoration: none; color:#ede4d0;}
+
+@media (max-width:400px) {
+  /* Evita que o blur ultrapasse os limites da imagem */
+.img-wrapper {
+  overflow: hidden;
+  width: 100%;
+
+}
+
+/* Imagens normais */
+.mySwiper .img-wrapper img {
+  filter: grayscale(0) blur(0);
+  transition: filter 0.5s ease;
+}
+
+/* Todas ficam P&B e desfocadas */
+.mySwiper:focus-visible .img-wrapper img {
+  filter: grayscale(1) blur(4px);
+}
+
+/* Apenas a imagem em hover continua normal */
+.mySwiper:focus-visible swiper-slide:focus-visible .img-wrapper img,
+.mySwiper:focus-visible .swiper-slide:focus-visible .img-wrapper img {
+  filter: grayscale(0) blur(0);
+}
+}
